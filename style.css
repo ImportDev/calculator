@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+.btn,
+.decimal,
+.equal,
+.operator {
+  height: 60px;
+  width: 60px;
+  font-size: 30px;
+  /* gap: 10px; */
+  margin: 7px;
+}
+
+/* .number, .decimal, .equal {
+  border:1px solid yellow;
+  border-radius: 10px;
+}
+.operator, #clear-btn{
+  border:1px solid lightblue;
+  border-radius: 10px; */
+
+
+.first-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#screen {
+  width: 225px;
+  height: 60px;
+  border: 1px solid blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.previous {
+  font-size: 20px;
+}
+
+:current {
+  font-size: 30px;
+}
